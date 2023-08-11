@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 20px;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-sub-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-container {
+    width: 55%;
+}
+
+.checkout-heading {
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.checkout-para {
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.checkout-para-span {
+    text-decoration: underline;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Roboto;
+    align-items: center;
+    margin-top: 30PX;
+    margin-bottom: 20px;
+}
+
+.profile {
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.contact-heading {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.contact-para {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.change-btn {
+    border-radius: 5px;
+    border: none;
+    padding: 3px 15px;
+    font-size: 13px;
+}
+
+.hr {
+    margin-top: 0px;
+}
+
+.address-container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contact-container1 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Roboto;
+    align-items: center;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.first-lable {
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.first-input {
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.data-container {
+    width: 100%;
+}
+
+.save-btn {
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 15px;
+
+}
+
+.cancel-btn {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.right-container {
+    width: 40%;
+    background-color: transparent;
+    border-left: 1px solid gray;
+    padding-left: 40px;
+}
+
+.shirt-img {
+    width: 100px;
+}
+
+.shirt-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.price {}
+
+.price-cost {
+    border: 1px solid green;
+    padding: 5px 20px;
+    border-radius: 15px;
+    color: green;
+}
+
+.quntity-btn {
+    padding: 0px 9px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: transparent;
+    margin: 0px 20px;
+    border: 1px solid gray;
+}
+
+.remove-btn {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    margin-right: 15px;
+}
+
+.quntity-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.payment-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.subtotal-para1 {
+    color: gray;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.subtotal-para2 {
+    font-weight: bold;
+    margin-right: 13px;
+    padding-bottom: 0px;
+}
+
+.conform-order-btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 302px;
+    width: 100%;
+}
+
+.learn-more-para {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.learn-more-span {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.catgeory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-heading {
+    font-size: 25px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.bottom-container-headings {
+    font-size: 20px;
+}
+
+.website {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-background {
+    background-color: #cdeef7;
+    border-radius: 7px;
+    padding: 15px;
+
+}
